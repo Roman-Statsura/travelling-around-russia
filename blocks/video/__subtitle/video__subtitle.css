@@ -1,0 +1,46 @@
+
+
+.video__subtitle {
+    max-width: 285px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 10px 0 29px 30px;
+    text-decoration: none;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .video__subtitle {
+        margin-top: 9px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .video__subtitle {
+        font-size: 0.875rem;
+        line-height: 15px;
+        margin-left: 24px;
+        margin-top: 7px;
+        margin-bottom: 23px;
+    }
+}
+
+@media (max-width : 767px) {
+    .video__subtitle {
+        font-size: 0.875rem;
+        line-height: 15px;
+        margin: 8px 16px 22px 24px;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 374px) {
+    .video__subtitle {
+        font-size: 0.875rem;
+        line-height: 15px;
+        margin: 8px 16px 16px 16px;
+    }
+}

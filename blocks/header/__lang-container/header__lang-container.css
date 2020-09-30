@@ -1,0 +1,19 @@
+.header__lang-container {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 7px;
+}
+
+@media (max-width : 767px) {
+    .header__lang-container {
+        font-size: 1.125rem;
+        line-height: 17px;
+    }
+}

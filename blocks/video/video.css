@@ -1,0 +1,46 @@
+@import url("./__container/video__container.css");
+@import url("./__content-subtitle/video__content-subtitle.css");
+@import url("./__content-title/video__content-title.css");
+@import url("./__duration/video__duration.css");
+@import url("./__icon-play/video__icon-play.css");
+@import url("./__item/video__item.css");
+@import url("./__subtitle/video__subtitle.css");
+@import url("./__title/video__title.css");
+
+@import url("./__duration/_kamchatka/video__duration_kamchatka.css");
+@import url("./__icon-play/_kamchatka/video__icon-play_kamchatka.css");
+@import url("./__title/_kamchatka/video__title_kamchatka.css");
+@import url("./__subtitle/_kamchatka/video__subtitle_kamchatka.css");
+
+.video {
+    font-family: "Inter", Arial, sans-serif;
+    margin: 106px auto auto auto;
+    max-width: 1184px;
+}
+
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .video {
+        width: calc(100% - 96px);
+        margin-top: 108px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .video {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 116px;
+    }
+}
+
+@media (max-width : 767px) {
+    .video {
+        width: calc(100% - 32px);
+        margin-top: 53px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .video { margin-top: 72px;
+    }
+}

@@ -1,0 +1,16 @@
+.footer__text {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .footer__text {
+        font-size: 1rem;
+        line-height: 27px;
+    }
+}

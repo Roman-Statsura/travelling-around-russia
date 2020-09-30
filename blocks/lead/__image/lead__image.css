@@ -1,0 +1,32 @@
+.lead__image {
+    width: 100%;
+    margin: 70px auto auto auto;
+    text-align: center;
+    display: block;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .lead__image {
+        min-height: 554px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .lead__image {
+        margin: 72px 0 0 0;
+        height: calc(100vw / 1.83);
+    }
+}
+
+@media (max-width : 767px) {
+    .lead__image {
+        margin: 32px auto auto auto;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 374px) {
+    .lead__image {
+        min-height: 211px;
+        margin-top: 36px;
+    }
+}

@@ -1,0 +1,33 @@
+.comments__content-title {
+    max-width: 800px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 0 auto;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .comments__content-title {
+        font-size: 4.5rem;
+        line-height: 65px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .comments__content-title {
+        font-size: 2.625rem;
+        line-height: 46px;
+        text-align: center;
+    }
+}
+
+@media (max-width : 767px) {
+    .comments__content-title {
+        font-size: 2rem;
+        line-height: 35px;
+    }
+}

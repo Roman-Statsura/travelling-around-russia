@@ -1,0 +1,7 @@
+.intro__content-row {
+    max-width: 984px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 34px;
+}

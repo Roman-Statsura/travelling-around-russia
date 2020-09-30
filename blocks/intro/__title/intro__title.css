@@ -1,0 +1,32 @@
+.intro__titile {
+    max-width: 683px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .intro__titile {
+        margin-bottom: 37px;
+    }
+}
+
+@media (max-width : 767px) {
+    .intro__titile {
+        font-size: 2rem;
+        line-height: 35px;
+        width: 251px;
+    }
+}
+
+@media (min-width : 530px) and (max-width : 767px) {
+    .intro__titile {
+        width: 100%;
+    }
+}

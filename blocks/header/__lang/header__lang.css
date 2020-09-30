@@ -1,0 +1,19 @@
+@import url("./_active/header__lang_active.css");
+
+.header__lang {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.header__lang:last-child {
+    margin-left: 18px;
+}
+.header__lang:hover {
+    opacity: 0.7;
+    transition: 1s ease;
+}
+
+@media (max-width : 767px) {
+    .header__lang:last-child {
+        margin-left: 24px;
+    }
+}

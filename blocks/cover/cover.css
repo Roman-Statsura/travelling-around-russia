@@ -1,0 +1,43 @@
+@import url("./__link/cover__link.css");
+@import url("./__subtitle/cover__subtitle.css");
+@import url("./__title/cover__title.css");
+
+
+.cover {
+    font-family: "Inter", Arial, sans-serif;
+    max-width: 1184px;
+    margin: 96px auto 0 auto;
+    background-image: url(../../images/cover.jpg);
+    background-color:rgba(42, 44, 47, 0.3);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.cover:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+    transition: 1s ease;
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .cover { 
+        margin-top: 99px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .cover {
+        margin-top: 102px;
+    }
+}
+
+@media (max-width : 767px) {
+    .cover {
+        margin-top: 57px;
+        background-size: 100% 100%;
+    }
+}
+
+@media (min-width : 530px) and (max-width : 767px) {
+    .cover {
+        margin-top: 102px;
+    }
+}

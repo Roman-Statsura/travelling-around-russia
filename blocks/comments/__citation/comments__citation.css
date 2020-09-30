@@ -1,0 +1,17 @@
+.comments__citation {
+    margin: 0;
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .comments__citation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width : 767px) {
+    .comments__citation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

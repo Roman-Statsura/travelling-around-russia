@@ -1,0 +1,39 @@
+.comments__content {
+    max-width: 382px;
+    width: calc((100% - 38px)/3);
+}
+
+@media (min-width : 1024px) and (max-width : 1279px) {
+    .comments__content {
+        width: calc((100% - 36px)/3);
+        margin-right: 18px;
+    }
+    .comments__content:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1023px) {
+    .comments__content {
+        margin: 0 auto 48px auto;
+        width: 100%;
+    }
+    .comments__content:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width : 767px) {
+    .comments__content {
+        margin: 0 auto 48px auto;
+        width: 100%;
+    }
+    .comments__content:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .comments__content {
+        margin-bottom: 51px;
+    }
+}

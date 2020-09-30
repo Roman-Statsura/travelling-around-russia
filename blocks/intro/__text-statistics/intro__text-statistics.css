@@ -1,0 +1,16 @@
+.intro__text-statistics {
+    max-width: 383px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8125rem;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 0 0 0;
+}
+@media (max-width : 767px) {
+    .intro__text-statistics {
+        font-size: 0.75rem;
+        line-height: 19px;
+    }
+}
